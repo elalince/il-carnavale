@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":""
+})
+<body>
+@@include('html/header.html',{})
+<main>
+    <div class="banner-block">
+        <div class="banner-block__content">
+            <h1 class="banner-block__title">
+                Il Carnevale <br class="mobile-br">è finito?<br/>
+                Niente paura,<br/>
+                continua su Ardente!
+            </h1>
+            <div class="banner-block__text">
+                Gioca, ottieni bonus e gira gratis <br/>dal 20 al 31 Marzo
+            </div>
+            <a class="banner-block__button button" href="https://ardente-fast.com/?show_popup_reg=1">
+                <svg width="23" height="23">
+                    <use xlink:href="#timer-ico"></use>
+                </svg>
+                <span class="timer">
+                        <span class="timer__days">00</span> giorni
+                        <span class="timer__hours">00</span>:<span class="timer__mins">00</span> ore
+                    </span>
+            </a>
+
+        </div>
+        <div class="banner-block__image">
+            <img src="@img/mask-main.png"/>
+        </div>
+    </div>
+    <div class="game-block">
+        <h2 class="game-block__title">
+            Scegli una maschera <br/>e ricevi subito un fantastico premio!
+        </h2>
+        <div class="game-block__masks">
+            <div class="masks">
+                <div class="mask">
+                    <div class="mask__image">
+                        <img src="@img/mask-1.png"/>
+                    </div>
+                    <div class="mask__content">
+                        <div class="prize">Fino al 200% + 50 giri gratuiti</div>
+                        <div class="noprize">Niente</div>
+                    </div>
+                </div>
+                <div class="mask">
+                    <div class="mask__image">
+                        <img src="@img/mask-2.png"/>
+                    </div>
+                    <div class="mask__content">
+                        <div class="prize">Fino al 200% + 50 giri gratuiti</div>
+                        <div class="noprize">Niente</div>
+                    </div>
+                </div>
+                <div class="mask">
+                    <div class="mask__image">
+                        <img src="@img/mask-3.png"/>
+                    </div>
+                    <div class="mask__content">
+                        <div class="prize">Fino al 200% + 50 giri gratuiti</div>
+                        <div class="noprize">Niente</div>
+                    </div>
+                </div>
+                <div class="mask">
+                    <div class="mask__image">
+                        <img src="@img/mask-4.png"/>
+                    </div>
+                    <div class="mask__content">
+                        <div class="prize">Fino al 200% + 50 giri gratuiti</div>
+                        <div class="noprize">Niente</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bonuses-block">
+        <h2 class="bonuses-block__title">
+            Quali premi ti aspettano il 1 aprile
+        </h2>
+        <div class="bonuses-list">
+            <div class="bonuses-item">
+                <div class="bonuses-item__content">
+                    <div class="bonuses-item__count">
+                        100 €
+                    </div>
+                    <div class="bonuses-item__subtitle">
+                        senza deposito
+                    </div>
+                    <div class="bonuses-item__text">
+                        solo per chi ha preso e attivato dei bonus in tutte e 12 le città.
+                    </div>
+                </div>
+                <div class="bonuses-item__image">
+                    <img src="@img/bonus-image-main.png"/>
+                </div>
+            </div>
+            <div class="bonuses-item">
+                <div class="bonuses-item__content">
+                    <div class="bonuses-item__count">
+                        50 €
+                    </div>
+                    <div class="bonuses-item__subtitle">
+                        senza deposito
+                    </div>
+                    <div class="bonuses-item__text">
+                        per coloro che hanno preso il bonus 7 giorni su 12
+                    </div>
+                </div>
+                <div class="bonuses-item__image">
+                    <img src="@img/bonus-image.png"/>
+                </div>
+            </div>
+<!--            <div class="bonuses-item">-->
+<!--                <div class="bonuses-item__content">-->
+<!--                    <div class="bonuses-item__count">-->
+<!--                        50 €-->
+<!--                    </div>-->
+<!--                    <div class="bonuses-item__subtitle">-->
+<!--                        senza deposito-->
+<!--                    </div>-->
+<!--                    <div class="bonuses-item__text">-->
+<!--                        per coloro che hanno preso il bonus 5 giorni su 12-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="bonuses-item__image">-->
+<!--                    <img src="@img/bonus-image.png"/>-->
+<!--                </div>-->
+<!--            </div>-->
+            <div class="bonuses-item">
+                <div class="bonuses-item__content">
+                    <div class="bonuses-item__count">
+                        Starburst slot
+                    </div>
+                    <div class="bonuses-item__subtitle">
+                        Bonus del 75% + 10 giri gratis
+                    </div>
+                    <div class="bonuses-item__text">
+                        per gli altri partecipanti
+                    </div>
+                </div>
+                <div class="bonuses-item__image">
+                    <img src="@img/bonus-image.png"/>
+                </div>
+            </div>
+        </div>
+        <a href="https://ardente-fast.com/?show_popup_reg=1" class="bonuses-block__button button">Entra nel festival</a>
+    </div>
+
+    <div class="flags flags_1">
+        <img src="@img/flags-1.png"/>
+    </div>
+    <div class="flags flags_2">
+        <img src="@img/flags-2.png"/>
+    </div>
+    <div class="decoration decoration_1">
+        <img src="@img/decoration-1.png"/>
+    </div>
+    <div class="decoration decoration_2">
+        <img src="@img/decoration-2.png"/>
+    </div>
+</main>
+    <div class="popup-wrapper hidden">
+        <div class="popup">
+            <div class="popup__image"></div>
+            <div class="popup__content">
+                <div class="popup__title">
+                    Congratulazioni!
+                </div>
+                <div class="popup__text">
+                    Hai vinto un bonus del 200% bonus + 50 giri gratuiti nella slot Starburst
+                </div>
+                <a href="https://ardente-fast.com/?show_popup_reg=1" class="popup__button button">Ricevi!</a>
+            </div>
+        </div>
+    </div>
+
+@@include('html/footer.html',{})
+</body>
+</html>
